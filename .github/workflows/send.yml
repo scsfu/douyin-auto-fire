@@ -11,9 +11,6 @@ on:
   # schedule:
   #   - cron: "0 0 * * *"
   #     timezone: "Asia/Shanghai"
-  schedule:
-    - cron: "30 16 * * *"
-      timezone: "Asia/Shanghai"
 
 concurrency:
   group: douyin-daily-sender
